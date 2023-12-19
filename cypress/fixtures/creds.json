@@ -1,0 +1,10 @@
+{
+  "correct": {
+    "name": "primailkom@gmail.com",
+    "password": "qwerty"
+  },
+  "incorrect": {
+    "name": "qwerty@gmail.com",
+    "password": "12345"
+  }
+}
