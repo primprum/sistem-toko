@@ -19,7 +19,6 @@
     "report": "node cypress.report.js"
   },
   "devDependencies": {
-    "cypress-iframe": "^1.0.1",
     "cypress-xpath": "latest"
   }
 }
