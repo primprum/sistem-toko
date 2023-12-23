@@ -13,6 +13,7 @@ In this project, there's sample end-to-end automation tests for Login web and Re
     - [Install the packages](#install-the-packages)
     - [Run the tests](#run-the-tests)
     - [Run all the tests \[headless mode\]](#run-all-the-tests-headless-mode)
+    - [Generate reports](#generate-reports)
   - [Sample Tests \[videos\]](#sample-tests-videos)
     - [Feature \[Login Web\]](#feature-login-web)
     - [Feature \[Reset Password\]](#feature-reset-password)
@@ -44,6 +45,12 @@ npm run cy:open
 
 ```bash
 npm run cy:run
+```
+
+### Generate reports
+
+```bash
+npm run report
 ```
 
 ## Sample Tests [videos]
