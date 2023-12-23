@@ -59,3 +59,8 @@ Then("user {string} receive an email for password update", (action) => {
     SiskoPage.reminderSent("false");
   }
 });
+
+Then("screenshot is taken", () => {
+  cy.wait(2000);
+  cy.screenshot();
+});

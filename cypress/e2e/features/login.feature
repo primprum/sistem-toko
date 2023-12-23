@@ -10,6 +10,7 @@ Scenario Outline: Login with '<username>' Username & '<password>' Password
   When user enters '<username>' Username and '<password>' Password
   And clicks "Login" button
   Then user should '<result>' log in
+  Then screenshot is taken
 
 Examples:
     | username |  password | result |

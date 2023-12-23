@@ -63,6 +63,10 @@ class SiskoPage {
       cy.xpath("//strong[contains(text(),'Password reminder sent! !')]").should("be.visible");
     }
   }
+
+  generateReport() {
+    cy.screenshot("my-screenshot");
+  }
 }
 
 export default new SiskoPage();
