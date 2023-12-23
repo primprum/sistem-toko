@@ -65,7 +65,8 @@ class SiskoPage {
   }
 
   generateReport() {
-    cy.screenshot("my-screenshot");
+    cy.wait(2000);
+    cy.screenshot();
   }
 }
 

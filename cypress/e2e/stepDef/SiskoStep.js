@@ -61,6 +61,5 @@ Then("user {string} receive an email for password update", (action) => {
 });
 
 Then("screenshot is taken", () => {
-  cy.wait(2000);
-  cy.screenshot();
+  SiskoPage.generateReport();
 });
