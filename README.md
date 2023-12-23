@@ -17,6 +17,7 @@ In this project, there's sample end-to-end automation tests for Login web and Re
     - [Feature \[Login Web\]](#feature-login-web)
     - [Feature \[Reset Password\]](#feature-reset-password)
     - [Testing All Features \[Headless Mode\]](#testing-all-features-headless-mode)
+    - [Test Reports \[With Screenshots\]](#test-reports-with-screenshots)
 
 ## Getting Started
 
@@ -79,3 +80,7 @@ There are 2 scenarios in this test:
 ### Testing All Features [Headless Mode]
 
 [![Test Demo](https://img.youtube.com/vi/nQH6gJ7q94s/maxresdefault.jpg)](https://www.youtube.com/embed/nQH6gJ7q94s)
+
+### Test Reports [With Screenshots]
+
+Github Pages => [https://primprum.github.io/sistem-toko/](https://primprum.github.io/sistem-toko/)
