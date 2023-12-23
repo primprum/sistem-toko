@@ -11,6 +11,7 @@ Scenario Outline: Forgot Password with '<status>' email
   And enters the '<status>' email
   And clicks 'Send Reminder' button
   Then user "<action>" receive an email for password update
+  Then screenshot is taken
 
 Examples:
     | status | action | 

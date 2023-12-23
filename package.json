@@ -10,7 +10,7 @@
     "stepDefinitions": "**/stepDef/**/*.js",
     "json": {
       "enabled": true,
-      "output": "cypress/reports/report.json"
+      "output": "cypress/support/results.json"
     }
   },
   "scripts": {
